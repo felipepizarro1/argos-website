@@ -1,5 +1,8 @@
 body {
     font-family: 'Jost', sans-serif;
+    background-image: url("img/background.jpg");
+    background-color: #cccccc;
+       
 }
 
 h1, h2, h3 {
@@ -11,18 +14,17 @@ h2 {
 }
 
 header h2 {
-    color: #cec8ff;
+    color: #ffffff;
 }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(#00CCFF, white);
     padding: 20px 0;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #00CCFF, #ffffff, #00CCFF);
     color: white;
 }
 
@@ -33,7 +35,7 @@ header h2 {
 }
 
 .navbar {
-    background-color: #00CCFF;
+    background: transparent;
 }
 
 a, a:hover {

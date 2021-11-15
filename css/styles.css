@@ -1,9 +1,9 @@
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Jost', sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    font-family: 'Jost', sans-serif;
 }
 
 h2 {
@@ -22,7 +22,7 @@ header h2 {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background-image: linear-gradient(to right, #00CCFF, #ffffff, #00CCFF);
     color: white;
 }
 
@@ -33,7 +33,7 @@ header h2 {
 }
 
 .navbar {
-    background-color: #901CAD;
+    background-color: #00CCFF;
 }
 
 a, a:hover {
@@ -46,7 +46,7 @@ a, a:hover {
 }
 
 .carousel {
-    border: solid #5637DD;
+    border: solid #00CCFF;
 }
 
 

@@ -1,24 +1,28 @@
 body {
-  font-family: "Jost", sans-serif; }
+  font-family: "Jost", sans-serif;
+  background-color: #00CCFF; }
 
 h1, h2, h3 {
   font-family: "Jost", sans-serif; }
 
 h2 {
-  color: #3046c5; }
+  color: #00CCFF; }
 
 header h2 {
-  color: #CEC8FF; }
+  color: #ffffff; }
 
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
+  background-image: linear-gradient(#ffffff, white);
   padding: 20px 0; }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  background-image: linear-gradient(to right, #5637dd, #00CCFF, #60106b);
   color: white; }
+
+.petbutton {
+  color: #00CCFF; }
 
 .row-content {
   padding: 50px 0;

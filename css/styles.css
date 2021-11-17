@@ -6,7 +6,7 @@ h1, h2, h3 {
   font-family: "Jost", sans-serif; }
 
 h2 {
-  color: #00CCFF; }
+  color: #ffffff; }
 
 header h2 {
   color: #ffffff; }
@@ -20,9 +20,6 @@ header h2 {
   padding: 30px;
   background-image: linear-gradient(to right, #5637dd, #00CCFF, #60106b);
   color: white; }
-
-.petbutton {
-  color: #00CCFF; }
 
 .row-content {
   padding: 50px 0;

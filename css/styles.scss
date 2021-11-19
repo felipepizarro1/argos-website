@@ -32,7 +32,7 @@ header {
 }
 
 .site-footer {
-    background-image: linear-gradient($color-pale, white);
+    background-image: linear-gradient($color-primary);
     padding: 20px 0;
 }
 
@@ -53,6 +53,7 @@ header {
 .navbar {
     background-color: $color-mid;
 }
+
 
 a, a:hover {
     color: inherit;

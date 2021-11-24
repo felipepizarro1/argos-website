@@ -11,10 +11,13 @@
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        
         <!-- endbuild -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&display=swap" rel="stylesheet">
+        
         
         <title>Argos: Adopt a pet!</title>
     </head>
@@ -158,10 +161,11 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    
+    <div class="container ">
         <div class="row m-5">
             <div class="col-sm-6 mt-5">
-                <h1>Take action!</h1>
+                <h1 class="wow ">Take action!</h1>
                 <h2 class="d-none d-sm-block">Help thousands of animals waiting for you!</h2>
                 <button type="button" data-toggle="modal" data-target="#reserveModal" class="btn mt-4  btn-lg btn-outline-light">Adopt a pet!</a>
 
@@ -174,12 +178,14 @@
             <div class="col-6 order-last order-sm-first">
                 <img class="img-fluid" src="img/Gaton.png" alt="cat">
             </div>
+            
             <div class="col-sm-6 mt-5">
-                <h1 >Help achieve goals!</h1>
+                <h1>Help achieve goals!</h1>
                 <h2 class="d-none d-sm-block">Support non-profit organizations that help animals.</h2>
                 <button type="button" data-toggle="modal" data-target="#reserveModal" class="btn mt-3  btn-lg btn-outline-light">Donate!</a>
 
             </div>
+        
         </div>
         <div class="row m-5">
             <div class="col-sm-6 mt-5">
@@ -205,7 +211,7 @@
         </div>
         
 
-    </div>    
+    </div>   
 
 
     <footer class="site-footer">
@@ -230,6 +236,7 @@
                 <div class="col-sm-4 text-center">
                     <a role="button" class="btn btn-outline-light" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br>
                     <a role="button" class="btn btn-outline-light mt-2" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> hello@argos.pet</a>
+                    <p class="mt-2">Design by Felipe Pizarro</p>
                 </div>
             </div>
         </div>        
@@ -241,6 +248,12 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    
+    
     <!-- endbuild -->
 
 

@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel="stylesheet" href="css/styles.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         
         <!-- endbuild -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -163,9 +164,9 @@
     </div>
     
     <div class="container ">
-        <div class="row m-5">
+        <div class="row m-5" >
             <div class="col-sm-6 mt-5">
-                <h1 class="wow ">Take action!</h1>
+                <h1 >Take action!</h1>
                 <h2 class="d-none d-sm-block">Help thousands of animals waiting for you!</h2>
                 <button type="button" data-toggle="modal" data-target="#reserveModal" class="btn mt-4  btn-lg btn-outline-light">Adopt a pet!</a>
 
@@ -174,12 +175,12 @@
                 <img class="img-fluid" src="img/Perrote.png" alt="dog">
             </div>
         </div>
-        <div class="row m-5">
+        <div class="row m-5" data-aos="fade up">
             <div class="col-6 order-last order-sm-first">
                 <img class="img-fluid" src="img/Gaton.png" alt="cat">
             </div>
             
-            <div class="col-sm-6 mt-5">
+            <div class="col-sm-6 mt-5 ">
                 <h1>Help achieve goals!</h1>
                 <h2 class="d-none d-sm-block">Support non-profit organizations that help animals.</h2>
                 <button type="button" data-toggle="modal" data-target="#reserveModal" class="btn mt-3  btn-lg btn-outline-light">Donate!</a>
@@ -248,9 +249,9 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        new WOW().init();
+      AOS.init();
     </script>
     
     

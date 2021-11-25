@@ -18,6 +18,9 @@ header h2 {
   background-image: linear-gradient(#00CCFF);
   padding: 20px 0; }
 
+.p-design {
+  color: #ffffff; }
+
 .jumbotron {
   margin: 0;
   padding: 30px;

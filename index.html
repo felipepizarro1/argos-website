@@ -84,23 +84,9 @@
                     <div class="container-fluid">
                         <form id="reserveModal">
                             <div class="form-group row">
-                                <label class="col-form-label col-sm-6" for="numCampers">Number of Campers</label>
-                                <div class="col">
-                                    <select class="form-control" name="numCampers" id="numCampers">
-                                        <option value="select">Select...</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group row">
                                 <label class="col col-form-label" for="date">Location</label>
                                 <div class="col-sm-6">
-                                    <input class="form-control" type="date" id="date" name="date" placeholder="date">
+                                    <input class="form-control" type="adress" id="date" name="date" placeholder="Your address">
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -127,6 +113,89 @@
         </div>
     </div>
 
+    <!---2MODAL=Donate-->
+
+    <div id="donate" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header header-modal text-white">
+                    <h3 class="modal-title">Donation</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form id="reserveModal">
+                            <div class="form-group row">
+                                <label class="col col-form-label" for="date">Sum to donate</label>
+                                <div class="col-sm-6">
+                                    <input class="form-control" type="number" id="date" name="date" placeholder="Your contribution">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-sm-6 col-form-label" for="Campsite type">Pet Preference</label>
+                                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-primary active">
+                                        <input type="radio" name="siteType" id="siteTent" autocomplete="off" checked> Dog
+                                      </label>
+                                      <label class="btn btn-primary">
+                                        <input type="radio" name="siteType" id="siteRV" autocomplete="off"> Cat
+                                      </label>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <button class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                    <button class="btn btn-primary" type="submit">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---3MODAL=volunteer-->
+
+    <div id="volunteer" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header header-modal text-white">
+                    <h3 class="modal-title">Volunteer</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form id="reserveModal">
+                            <div class="form-group row">
+                                <label class="col col-form-label" for="date">Profession</label>
+                                <div class="col-sm-6">
+                                    <input class="form-control" type="text" id="date" name="date" placeholder="Your profession">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-sm-6 col-form-label" for="Campsite type">Type of volunteering</label>
+                                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-primary active">
+                                        <input type="radio" name="siteType" id="siteTent" autocomplete="off" checked> Online
+                                      </label>
+                                      <label class="btn btn-primary">
+                                        <input type="radio" name="siteType" id="siteRV" autocomplete="off"> Onsite
+                                      </label>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <button class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                    <button class="btn btn-primary" type="submit">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     
@@ -150,7 +219,7 @@
             <div class="col-sm-6 mt-5" data-aos="fade-left" >
                 <h1>Help achieve goals!</h1>
                 <h2 class="d-none d-sm-block">Support non-profit organizations that help animals.</h2>
-                <button type="button" data-toggle="modal" data-target="#reserveModal" data-aos= "flip-down" class="btn mt-3  btn-lg btn-outline-light">Donate!</a>
+                <button type="button" data-toggle="modal" data-target="#donate" data-aos= "flip-down" class="btn mt-3  btn-lg btn-outline-light">Donate!</a>
 
             </div>
         
@@ -159,7 +228,7 @@
             <div class="col-sm-6 mt-5" data-aos="fade-right">
                 <h1>Volunteer your skills!</h1>
                 <h2 class="d-none d-sm-block">Your time and knowledge are important to these organizations.</h2>
-                <button type="button" data-toggle="modal" data-target="#reserveModal" data-aos= "flip-down" class="btn mt-3  btn-lg btn-outline-light">Volunteer!</a>
+                <button type="button" data-toggle="modal" data-target="#volunteer" data-aos= "flip-down" class="btn mt-3  btn-lg btn-outline-light">Volunteer!</a>
 
             </div>
             <div class="col-6 mt-2" data-aos="fade-left">

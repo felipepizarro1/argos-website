@@ -1,8 +1,10 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
-$("#button").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#myDiv").offset().top
-    }, 2000);
-});
+// You can also pass an optional settings object
+// below listed default settings
+
     
 

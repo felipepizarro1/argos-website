@@ -132,14 +132,20 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-6 col-form-label" for="Campsite type">Pet Preference</label>
+                                <label class="col-sm-6 col-form-label" for="Campsite type">Monthly Subscription</label>
                                 <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
                                     <label class="btn btn-primary active">
-                                        <input type="radio" name="siteType" id="siteTent" autocomplete="off" checked> Dog
+                                        <input type="radio" name="siteType" id="siteTent" autocomplete="off" checked> On
                                       </label>
                                       <label class="btn btn-primary">
-                                        <input type="radio" name="siteType" id="siteRV" autocomplete="off"> Cat
+                                        <input type="radio" name="siteType" id="siteRV" autocomplete="off"> Off
                                       </label>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col col-form-label" for="date">Sum to donate</label>
+                                <div class="col-sm-6">
+                                    <input class="form-control" type="number" id="date" name="date" placeholder="Your contribution">
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -197,6 +203,30 @@
         </div>
     </div>
 
+    <!---4MODAL=ABOUT-US-->
+
+    <div id="aboutus" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header header-modal text-white">
+                    <h3 class="modal-title">About Us</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <h1>Hi! Well...</h1>
+                                <p>You got me! This is a prototype for showcasing</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     
     <div class="container ">
@@ -242,7 +272,7 @@
             <div class="col-sm-6 mt-5" data-aos="fade-left">
                 <h1>Learn more!</h1>
                 <h2 class="d-none d-sm-block">Get to know the roots of our mission.</h2>
-                <button type="button" data-toggle="modal" data-target="#reserveModal" data-aos= "flip-down" class="btn mt-3  btn-lg btn-outline-light">About Us</a>
+                <button type="button" data-toggle="modal" data-target="#aboutus" data-aos= "flip-down" class="btn mt-3  btn-lg btn-outline-light">About Us</a>
 
             </div>
         </div>
